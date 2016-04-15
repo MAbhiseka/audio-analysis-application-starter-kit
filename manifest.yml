@@ -12,8 +12,8 @@ applications:
   command: npm start
   memory: 512M
   services:
-  - speech-to-text-service
-  - concept-insights-service
+  - Speech To Text-pm
+  - Dialog-Lab
   env:
     NODE_ENV: production
     SECURE_EXPRESS: 1
